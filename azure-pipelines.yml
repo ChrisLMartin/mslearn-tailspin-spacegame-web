@@ -1,6 +1,6 @@
 stages:
 - stage: Build
   jobs:
-  - job: Create pool
+  - job: CreatePool
     pool:
       vmImage: 'Ubuntu-16.04'
